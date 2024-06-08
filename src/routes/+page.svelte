@@ -9,7 +9,7 @@
 
 <svelte:head><title>New MarkMap</title></svelte:head>
 
-<div class="bg-[#191919] min-h-[100vh] px-10 py-10 flex flex-col items-center gap-8">
+<div class="bg-[#191919] min-h-[100vh] px-6 lg:px-10 py-10 flex flex-col items-center gap-8">
 	<Title size="lg" color="gray">Create a mind map!</Title>
 	{#if $message}
 		<Card color="danger" radius="lg" tailwindClass="w-[50%] p-2">
@@ -19,7 +19,7 @@
 	<form
 		action="?/create_map"
 		method="POST"
-		class="w-[50%] flex flex-col items-center gap-4"
+		class="w-[100%] lg:w-[50%] flex flex-col items-center gap-4"
 		use:enhance
 	>
 		<div class="w-full flex flex-col gap-2">

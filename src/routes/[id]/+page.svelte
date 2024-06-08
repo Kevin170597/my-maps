@@ -33,10 +33,10 @@
 <div class="bg-[#191919] min-h-[100vh]">
 	<div class="flex items-center justify-between p-4">
 		<div>
-			<Title size="lg" color="white">{data.title}</Title>
-			<Text color="gray">{data.short_id}</Text>
+			<Title size="xs" color="white">{data.title}</Title>
+			<Text size="xs" color="gray">{data.short_id}</Text>
 		</div>
-		<Button radius="lg" onClick={copyLink}>Copy url</Button>
+		<Button size="xs" radius="lg" onClick={copyLink}>Copy url</Button>
 	</div>
 	<svg id="markmap"></svg>
 </div>
